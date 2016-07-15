@@ -76,7 +76,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a04001b7090b084aa4e8ece3e344061, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 1
 --- !u!114 &11463518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -88,6 +87,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172659a00edc6594fb2467b5628cd7b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: Enimigos
 --- !u!114 &11486576
 MonoBehaviour:
   m_ObjectHideFlags: 1

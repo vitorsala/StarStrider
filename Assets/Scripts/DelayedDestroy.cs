@@ -2,8 +2,8 @@
 using System.Collections;
 
 public class DelayedDestroy : MonoBehaviour {
-	public float time;
-	private float elapsedTime = 0;
+	//public float time;
+	//private float elapsedTime = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -11,9 +11,12 @@ public class DelayedDestroy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		elapsedTime += Time.deltaTime;
-		if (elapsedTime >= time) {
-			Destroy (gameObject);
-		}
+		//elapsedTime += Time.deltaTime;
+		//if (elapsedTime >= time) {
+		//	Destroy (gameObject);
+		//}
+	}
+	void OnBecameInvisible() {
+		Destroy (gameObject);
 	}
 }

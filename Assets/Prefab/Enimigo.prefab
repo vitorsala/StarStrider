@@ -11,6 +11,8 @@ GameObject:
   - 212: {fileID: 21225470}
   - 50: {fileID: 5060212}
   - 61: {fileID: 6122648}
+  - 114: {fileID: 11467484}
+  - 114: {fileID: 11431450}
   m_Layer: 0
   m_Name: Enimigo
   m_TagString: Enimigos
@@ -62,6 +64,31 @@ BoxCollider2D:
   m_Offset: {x: 0.00000038146973, y: 0.0009737015}
   serializedVersion: 2
   m_Size: {x: 0.13934484, y: 0.14083986}
+--- !u!114 &11431450
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b538952ae11ae48ac7ff226c8f86b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  magnitude: 0.2
+--- !u!114 &11467484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e40da1f4b93e3f747b27d313360f99ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootObject: {fileID: 184068, guid: 396d07dd65801824697e6c82b1f83f05, type: 2}
+  timeToSpawn: 0.3
 --- !u!212 &21225470
 SpriteRenderer:
   m_ObjectHideFlags: 1
