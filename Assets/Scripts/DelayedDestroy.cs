@@ -15,8 +15,9 @@ public class DelayedDestroy : MonoBehaviour {
 		//if (elapsedTime >= time) {
 		//	Destroy (gameObject);
 		//}
-	}
-	void OnBecameInvisible() {
-		Destroy (gameObject);
+
+		if (!GetComponent<SpriteRenderer>().isVisible) {
+			Destroy (gameObject);
+		}
 	}
 }

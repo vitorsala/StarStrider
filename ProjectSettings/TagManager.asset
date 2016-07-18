@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enimigos
+  - Enemy
+  - Boundary
   layers:
   - Default
   - TransparentFX
@@ -39,6 +41,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BGlv3
+    uniqueID: 2714744575
+    locked: 0
+  - name: BGlv2
+    uniqueID: 1844690805
+    locked: 0
+  - name: BGlv1
+    uniqueID: 2964647485
+    locked: 0
+  - name: Props
+    uniqueID: 1214931449
+    locked: 0
+  - name: Playable
+    uniqueID: 2411990775
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

@@ -45,7 +45,6 @@ public class GameManager : MonoBehaviour {
 			gameState = GameState.Playing;
 			break;
 		case GameState.Playing:
-			Debug.Log (life);
 			if (life <= 0) {
 				gameState = GameState.Death;
 				player.SetActive (false);
