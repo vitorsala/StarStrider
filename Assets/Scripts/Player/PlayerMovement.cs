@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
 
-	public float moveSpeed = 1.0f;
+	public float moveSpeed = 0.5f;
 
 	// Use this for initialization
 	void Start () {
@@ -17,7 +17,9 @@ public class PlayerMovement : MonoBehaviour {
 		//transform.position = Vector2.Lerp (transform.position, mousePosition, moveSpeed);
 		Vector3 movementVector = mousePosition - transform.position;
 		movementVector.z = 0;
-		movementVector.Normalize ();
+		if (movementVector.magnitude > 1) {
+			movementVector.Normalize ();
+		}
 		transform.Translate (movementVector * moveSpeed);
 	}
 }
