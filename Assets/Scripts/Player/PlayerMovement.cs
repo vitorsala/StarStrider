@@ -14,6 +14,10 @@ public class PlayerMovement : MonoBehaviour {
 	void Update () {
 		Vector3 mousePosition = Input.mousePosition;
 		mousePosition = Camera.main.ScreenToWorldPoint (mousePosition);
-		transform.position = Vector2.Lerp (transform.position, mousePosition, moveSpeed);
+		//transform.position = Vector2.Lerp (transform.position, mousePosition, moveSpeed);
+		Vector3 movementVector = mousePosition - transform.position;
+		movementVector.z = 0;
+		movementVector.Normalize ();
+		transform.Translate (movementVector * moveSpeed);
 	}
 }

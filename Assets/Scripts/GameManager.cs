@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour {
 		switch (gameState) {
 		case GameState.Starting:
 			if (player.transform.localPosition != startingPoint) {
-				float step = 0.2f * Time.deltaTime;
+				float step = 0.8f * Time.deltaTime;
 				player.transform.localPosition = Vector3.MoveTowards (player.transform.localPosition, startingPoint, step);
 			}
 			else {
