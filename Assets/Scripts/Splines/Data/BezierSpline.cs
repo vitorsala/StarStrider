@@ -74,10 +74,10 @@ public class BezierSpline : MonoBehaviour {
 	public void SetControlPoint(int index, Vector3 point){
 		if (index % 3 == 0) {
 			Vector3 delta = point - points [index];
-			if (index > 0) {
+			if (index != points.Length - 1 && index > 0) {
 				points [index - 1] += delta;
 			}
-			if (index + 1 < points.Length) {
+			if (index != 0 && index + 1 < points.Length) {
 				points [index + 1] += delta;
 			}
 		}
