@@ -25,6 +25,8 @@ public class GameManager : MonoBehaviour {
 	public GameObject gameOverCanvas;
 	public Text gameOverScoreDisplay;
 
+	//
+	public static float spawnerVelocity = 5f;
 
 	[HideInInspector] public LevelData data;
 

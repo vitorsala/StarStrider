@@ -27,7 +27,7 @@ public class EnemyShootComponent : MonoBehaviour {
 			float yoffset;
 
 			SpriteRenderer renderer = GetComponent<SpriteRenderer> ();
-			yoffset = transform.position.y - (renderer.bounds.size.y / 2) - projectileSpeed;
+			yoffset = transform.position.y - (renderer.bounds.size.y / 2) - 0.5f;
 
 			newPosition = new Vector3 (transform.position.x, yoffset, transform.position.z);
 

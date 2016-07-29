@@ -11,6 +11,6 @@ public class VerticalLinMovement : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		transform.Translate(Vector2.up * magnitude);
+		transform.Translate(0, magnitude * Time.deltaTime, 0);
 	}
 }

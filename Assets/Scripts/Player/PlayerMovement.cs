@@ -26,6 +26,6 @@ public class PlayerMovement : MonoBehaviour {
 		if (movementVector.magnitude > 1) {
 			movementVector.Normalize ();
 		}
-		transform.Translate (movementVector * moveSpeed);
+		transform.Translate (movementVector * moveSpeed * Time.deltaTime);
 	}
 }
