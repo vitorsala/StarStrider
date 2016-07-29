@@ -15,7 +15,7 @@ GameObject:
   - 58: {fileID: 5891342}
   - 114: {fileID: 11463518}
   m_Layer: 0
-  m_Name: Tiro
+  m_Name: PlayerShoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87,7 +87,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172659a00edc6594fb2467b5628cd7b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: Enimigos
+  targetTags:
+  - Enimigos
 --- !u!114 &11486576
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -99,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be4a08c1e8a5df2499022c30066cc7ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  magnitude: 0.2
+  magnitude: 0
 --- !u!212 &21225470
 SpriteRenderer:
   m_ObjectHideFlags: 1

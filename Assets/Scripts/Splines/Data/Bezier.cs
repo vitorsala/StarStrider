@@ -1,47 +1,27 @@
 ﻿using UnityEngine;
 
 public class Bezier {
-	public static Vector3 GetPoint(float t, params Vector3[] points){
+	public static Vector3 GetPoint(float t, Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3){
 
-		// B(t) = (1 - t)² P0 + 2 (1 - t) t P1 + t² P2
-		t = Mathf.Clamp01 (t);
+        // B(t) = (1 - t)³ P0 + 3(1 - t)² t P1 + 3(1 - t) t² P2 + t³ P3
+        t = Mathf.Clamp01 (t);
 		float oneMinusT = 1f - t;
-		Vector3 result = Vector3.zero;
 
-
-		if (points.Length == 3) {
-			result = oneMinusT * oneMinusT * points [0] +
-				2f * oneMinusT * t * points [1] +
-				t * t * points [2];
-		}
-		else if (points.Length == 4) {
-			result = oneMinusT * oneMinusT * oneMinusT * points[0] +
-				oneMinusT * oneMinusT * points [1] +
-				2f * oneMinusT * t * points [2] +
-				t * t * points [3];
-		}
-
-		return result;
+		return oneMinusT * oneMinusT * oneMinusT * p0 +
+                3f * oneMinusT * oneMinusT * t * p1 +
+                3f * oneMinusT * t * t * p2 +
+                t * t * t * p3;
 	}
 	
 
-	public static Vector3 GetDerivative(float t, params Vector3[] points){
-		// B'(t) = 2 (1 - t)(P1 - P0) + 2 t (P2 - P1)
+	public static Vector3 GetDerivative(float t, Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3) {
+        // B'(t) = 3(1 - t)² (P1 - P0) + 6(1 - t)t (P2 - P1) + 3t² (P3 - P2)
 
-		t = Mathf.Clamp01 (t);
+        t = Mathf.Clamp01 (t);
 		float oneMinusT = 1f - t;
-		Vector3 result = Vector3.zero;
 
-		if (points.Length == 3) {
-			result = 2f * oneMinusT * (points [1] - points [0]) +
-				2f * t * (points [2] - points [1]);
-		}
-		else if (points.Length == 4) {
-			result = 3 * oneMinusT * oneMinusT * (points[1] - points[0]) +
-				6f * oneMinusT * (points [2] - points [1]) +
-				3f * t * t * (points [3] - points [2]);
-		}
-
-		return result;
+		return 3f * oneMinusT * oneMinusT * (p1 - p0) +
+                6f * oneMinusT * t * (p2 - p1) +
+                3f * t * t * (p3 - p2);
 	}
 }

@@ -9,14 +9,14 @@ GameObject:
   m_Component:
   - 4: {fileID: 471928}
   - 212: {fileID: 21225470}
-  - 50: {fileID: 5060212}
-  - 61: {fileID: 6122648}
-  - 114: {fileID: 11413380}
-  - 95: {fileID: 9567246}
-  - 114: {fileID: 11456484}
+  - 50: {fileID: 5037460}
+  - 114: {fileID: 11486576}
+  - 114: {fileID: 11446850}
+  - 58: {fileID: 5891342}
+  - 114: {fileID: 11442518}
   m_Layer: 0
-  m_Name: Enimigo
-  m_TagString: Enimigos
+  m_Name: EnemyShoot
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,13 +28,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 184068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.24, y: 8.11, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: 7.9367495, y: 6.012742, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!50 &5060212
+--- !u!50 &5037460
 Rigidbody2D:
   serializedVersion: 2
   m_ObjectHideFlags: 1
@@ -51,8 +51,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &6122648
-BoxCollider2D:
+--- !u!58 &5891342
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -60,29 +60,12 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0.00000038146973, y: 0.0009737015}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.13934484, y: 0.14083986}
---- !u!95 &9567246
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 184068}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 793a497dadef17e4eb32b4c7e87e6e8a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11413380
+  m_Radius: 0.08792368
+--- !u!114 &11442518
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -90,28 +73,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 184068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2f6d883e54ac9f44979357fad2bef9d, type: 3}
+  m_Script: {fileID: 11500000, guid: 6fd7334554bd0a3458be5b7d5f2c787d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pathToFollow: {fileID: 0}
-  speed: 1
---- !u!114 &11456484
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 184068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1e4da87efe36ad498560d907c553c91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shootObject: {fileID: 184068, guid: 759509e8464054343a6478977693a805, type: 2}
-  rateOfFire: 0.3
-  projectileSpeed: 0.1
   targetTags:
   - Player
-  type: 0
+--- !u!114 &11446850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a04001b7090b084aa4e8ece3e344061, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11486576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4a08c1e8a5df2499022c30066cc7ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  magnitude: 0.2
 --- !u!212 &21225470
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -136,10 +125,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1882976521
+  m_SortingLayerID: 1214931449
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 64e0f4cdf7ac99c488b4e1647430ea24, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: e91167ea023d1d243bd32df4a9d0b3e8, type: 3}
+  m_Color: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1001 &100100000

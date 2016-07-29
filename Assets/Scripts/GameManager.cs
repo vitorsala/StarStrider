@@ -50,21 +50,21 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 		switch (gameState) {
 		case GameState.Starting:
-			if (player.transform.localPosition != startingPoint) {
-				float step = 0.8f * Time.deltaTime;
-				player.transform.localPosition = Vector3.MoveTowards (player.transform.localPosition, startingPoint, step);
-			}
-			else {
-				player.GetComponent<PlayerMovement> ().enabled = true;
-				GameObject[] enemies = GameObject.FindGameObjectsWithTag ("Enimigos");
 
-				foreach(GameObject en in enemies){
-					Debug.Log (en.name);
-					en.gameObject.SetActive (true);
-				}
-				gameState = GameState.Playing;
-			}
-			break;
+		    if (player.transform.localPosition != startingPoint) {
+			    float step = 0.8f * Time.deltaTime;
+			    player.transform.localPosition = Vector3.MoveTowards (player.transform.localPosition, startingPoint, step);
+		    }
+		    else {
+                player.GetComponent<PlayerMovement>().enabled = true;
+			    GameObject[] enemies = GameObject.FindGameObjectsWithTag ("Enimigos");
+
+			    foreach(GameObject en in enemies){
+				    en.gameObject.SetActive (true);
+			    }
+			    gameState = GameState.Playing;
+		    }
+		    break;
 		case GameState.Playing:
 			if (life <= 0) {
 				gameState = GameState.Death;

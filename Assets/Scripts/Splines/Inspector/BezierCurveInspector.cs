@@ -33,11 +33,22 @@ public class BezierCurveInspector : Editor {
 		else if (curve.points.Length == 4) {
 			Handles.DrawBezier (curve.points [0], curve.points [3], curve.points [1], curve.points [2], Color.white, null, 2f);
 		}
-	}
+        ShowDirections();
+
+    }
 
 	private void ShowDirections(){
+        int stepsPerCurve = 10;
+        Handles.color = Color.green;
+        int steps = stepsPerCurve;
 
-	}
+        for (int i = 0; i <= steps; i++) {
+            float t = i / (float)steps;
+            Vector3 p = curve.GetPoint(t);
+            Handles.DrawLine(p, p + curve.GetVelocity(t).normalized);
+            Handles.SphereCap(0, p, Quaternion.identity, 0.5f);
+        }
+    }
 
 	private Vector3 ShowPoint(int index){
 		

@@ -6,7 +6,6 @@ public class UILoadLevel : MonoBehaviour {
 	public string sceneToLoad;
 
 	public void loadLevel() {
-		Debug.Log ("opa!");
 		SceneManager.LoadScene (sceneToLoad);
 	}
 }

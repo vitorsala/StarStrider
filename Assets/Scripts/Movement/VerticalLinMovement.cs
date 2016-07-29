@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class VerticalLinMovement : MonoBehaviour {
 
-	public float magnitude;
+    [HideInInspector]
+    public float magnitude;
 
 	// Use this for initialization
 	void Start () {
