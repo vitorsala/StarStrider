@@ -5,7 +5,7 @@ public class EnemySpawner : MonoBehaviour {
 
     public GameObject enemyToSpawn;
 
-    public BezierSpline enemyPath;
+	public Path enemyPath;
     public float enemySpeed;
 
     public float timeBetweenEntities;
@@ -33,6 +33,7 @@ public class EnemySpawner : MonoBehaviour {
 				if (elapsedTimeSinceLastSpawn >= timeBetweenEntities && numberOfEnemies > 0) {
 
 					GameObject spawnedEnemy = GameObject.Instantiate (enemyToSpawn);
+					spawnedEnemy.transform.SetParent(gameObject.transform);
 					spawnedEnemy.transform.position = origin;
 					FollowSplinePath fsp = spawnedEnemy.GetComponent<FollowSplinePath> ();
 					fsp.pathToFollow = enemyPath;

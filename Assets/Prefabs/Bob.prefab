@@ -64,7 +64,7 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0.000000059604645}
   serializedVersion: 2
-  m_Radius: 0.033310167
+  m_Radius: 0.015
 --- !u!95 &9569364
 Animator:
   serializedVersion: 3
@@ -110,7 +110,7 @@ MonoBehaviour:
   projectileSpeed: 15
   targetTags:
   - Enimigos
-  type: 0
+  type: 1
   doubleShootSpaceFromMiddle: 0.4
 --- !u!212 &21211274
 SpriteRenderer:

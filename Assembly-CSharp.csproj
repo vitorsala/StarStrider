@@ -53,17 +53,19 @@
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Level Data\LevelData.cs" />
      <Compile Include="Assets\Scripts\Level Data\Wave.cs" />
-     <Compile Include="Assets\Scripts\Movement\HorizontalCosMovement.cs" />
-     <Compile Include="Assets\Scripts\Movement\VerticalLinMovement.cs" />
-     <Compile Include="Assets\Scripts\Movement\VerticalSinMovement.cs" />
+     <Compile Include="Assets\Scripts\Path\AI\FollowSplinePath.cs" />
+     <Compile Include="Assets\Scripts\Path\Data\Bezier.cs" />
+     <Compile Include="Assets\Scripts\Path\Data\BezierCurve.cs" />
+     <Compile Include="Assets\Scripts\Path\Data\Line.cs" />
+     <Compile Include="Assets\Scripts\Path\Data\Path.cs" />
+     <Compile Include="Assets\Scripts\Patterns\Movement\HorizontalCosMovement.cs" />
+     <Compile Include="Assets\Scripts\Patterns\Movement\LinearMovement.cs" />
+     <Compile Include="Assets\Scripts\Patterns\Movement\VerticalLinMovement.cs" />
+     <Compile Include="Assets\Scripts\Patterns\Movement\VerticalSinMovement.cs" />
+     <Compile Include="Assets\Scripts\Patterns\Shoot\ShootPattern.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerShootCollision.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerShootComponent.cs" />
-     <Compile Include="Assets\Scripts\Splines\AI\FollowSplinePath.cs" />
-     <Compile Include="Assets\Scripts\Splines\Data\Bezier.cs" />
-     <Compile Include="Assets\Scripts\Splines\Data\BezierCurve.cs" />
-     <Compile Include="Assets\Scripts\Splines\Data\BezierSpline.cs" />
-     <Compile Include="Assets\Scripts\Splines\Data\Line.cs" />
      <Compile Include="Assets\Scripts\TimedBomb.cs" />
      <Compile Include="Assets\Scripts\UI\UILoadLevel.cs" />
      <Compile Include="Assets\Scripts\UI\UILoadScene.cs" />
@@ -73,7 +75,6 @@
      <Compile Include="Assets\Scripts\Unity Remote\ScreenStream.cs" />
      <Compile Include="Assets\Scripts\Unity Remote\Utils.cs" />
      <Compile Include="Assets\Scripts\Unity Remote\WebCamStreamer.cs" />
-     <None Include="Assets\Movinarc\PackageUninstaller\README.txt" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>

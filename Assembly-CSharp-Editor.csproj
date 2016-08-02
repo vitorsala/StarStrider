@@ -46,14 +46,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\BezierCurveInspector.cs" />
-     <Compile Include="Assets\Editor\BezierSplineInspector.cs" />
      <Compile Include="Assets\Editor\Builder.cs" />
      <Compile Include="Assets\Editor\LevelWaveEditor.cs" />
      <Compile Include="Assets\Editor\LineInspector.cs" />
-     <Compile Include="Assets\Movinarc\PackageUninstaller\Editor\PUManager.cs" />
-     <Compile Include="Assets\Movinarc\PackageUninstaller\Editor\PUSelection.cs" />
-     <Compile Include="Assets\Movinarc\PackageUninstaller\Editor\TreeNode.cs" />
-     <None Include="Assets\Movinarc\PackageUninstaller\README.txt" />
+     <Compile Include="Assets\Editor\PathInspector.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
@@ -77,9 +73,6 @@
  </Reference>
  <Reference Include="UnityEditor.TreeEditor">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
- </Reference>
- <Reference Include="SharpCompress.3.5">
- <HintPath>/Users/vitor.kawai/Documents/Giant Bonsai Studios/StarStrider/Assets/Movinarc/PackageUninstaller/Editor/SharpCompress.3.5.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>

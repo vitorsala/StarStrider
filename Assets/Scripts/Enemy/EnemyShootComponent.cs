@@ -33,7 +33,8 @@ public class EnemyShootComponent : MonoBehaviour {
 
 			GameObject shoot = Instantiate (shootObject, newPosition, transform.rotation) as GameObject;
             shoot.GetComponent<EnemyShootCollision>().targetTags = targetTags;
-            shoot.GetComponent<VerticalLinMovement>().magnitude = -projectileSpeed;
+			shoot.AddComponent<LinearMovement>();
+			shoot.GetComponent<LinearMovement>().magnitude = Vector3.down * projectileSpeed;
 		}
 	}
 }
