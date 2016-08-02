@@ -17,6 +17,7 @@ public class FollowSplinePath : MonoBehaviour {
 	void Update () {
         if(pathToFollow != null) {
             t += Time.deltaTime * speed;
+
             if (t >= 1f) {
                 if (pathToFollow.loop) {
                     t = 0;

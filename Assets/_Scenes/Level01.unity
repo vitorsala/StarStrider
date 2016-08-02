@@ -219,7 +219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &271650761
 Transform:
   m_ObjectHideFlags: 0
@@ -1076,10 +1076,10 @@ RectTransform:
   m_Father: {fileID: 552235948}
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 885, y: 87}
-  m_Pivot: {x: 0, y: 1}
+  m_SizeDelta: {x: 0, y: 67}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1092136072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1402,7 +1402,7 @@ MonoBehaviour:
     type: 2}
   enemyPath: {fileID: 1777310883}
   enemySpeed: 0.2
-  timeBetweenEntities: 1
+  timeBetweenEntities: 2
   numberOfEnemies: 4
   delay: 0
 --- !u!114 &1777310883
@@ -1470,9 +1470,9 @@ MonoBehaviour:
     type: 2}
   enemyPath: {fileID: 1868431777}
   enemySpeed: 0.2
-  timeBetweenEntities: 1
+  timeBetweenEntities: 2
   numberOfEnemies: 4
-  delay: 0.5
+  delay: 1
 --- !u!114 &1868431777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1546,7 +1546,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2068447997
 Transform:
   m_ObjectHideFlags: 0

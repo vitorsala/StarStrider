@@ -13,6 +13,8 @@ public class PlayerShootComponent : MonoBehaviour {
     }
     public ShootType type = ShootType.Simple;
 
+    public float doubleShootSpaceFromMiddle = 0.4f;
+
 	private double elapsedTime = 0;
 
 	// Use this for initialization
@@ -23,29 +25,36 @@ public class PlayerShootComponent : MonoBehaviour {
 		elapsedTime += Time.deltaTime;
 		if (elapsedTime >= rateOfFire) {
 
+            float yoffset;
+            GameObject shoot;
+
+            SpriteRenderer renderer = GetComponent<SpriteRenderer>();
+            yoffset = transform.position.y + (renderer.bounds.size.y / 2) + 0.5f;
+
             switch (type) {
+            case ShootType.Simple:
 
-                case ShootType.Simple:
-                    
-			        Vector3 newPosition;
-			        float yoffset;
+                shoot = Instantiate(shootObject, new Vector3(transform.position.x, yoffset, transform.position.z), transform.rotation) as GameObject;
+                shoot.GetComponent<PlayerShootCollision>().targetTags = targetTags;
+                shoot.AddComponent<VerticalLinMovement>();
+                shoot.GetComponent<VerticalLinMovement>().magnitude = projectileSpeed;
+                break;
 
-			        SpriteRenderer renderer = GetComponent<SpriteRenderer> ();
-			        yoffset = transform.position.y + (renderer.bounds.size.y / 2) + 0.5f;
+            case ShootType.Double:
 
-			        newPosition = new Vector3 (transform.position.x, yoffset, transform.position.z);
+                shoot = Instantiate(shootObject, new Vector3(transform.position.x - doubleShootSpaceFromMiddle, yoffset, transform.position.z), transform.rotation) as GameObject;
+                shoot.GetComponent<PlayerShootCollision>().targetTags = targetTags;
+                shoot.AddComponent<VerticalLinMovement>();
+                shoot.GetComponent<VerticalLinMovement>().magnitude = projectileSpeed;
 
-			        GameObject shoot = Instantiate (shootObject, newPosition, transform.rotation) as GameObject;
-                    shoot.GetComponent<PlayerShootCollision>().targetTags = targetTags;
-                    shoot.GetComponent<VerticalLinMovement>().magnitude = projectileSpeed;
+                shoot = Instantiate(shootObject, new Vector3(transform.position.x + doubleShootSpaceFromMiddle, yoffset, transform.position.z), transform.rotation) as GameObject;
+                shoot.GetComponent<PlayerShootCollision>().targetTags = targetTags;
+                shoot.AddComponent<VerticalLinMovement>();
+                shoot.GetComponent<VerticalLinMovement>().magnitude = projectileSpeed;
 
-                    break;
-                case ShootType.Double:
-
-
-                    break;
+                break;
             }
-
+            
 			elapsedTime = 0;
 		}
 	}

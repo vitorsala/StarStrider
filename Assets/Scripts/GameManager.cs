@@ -59,11 +59,7 @@ public class GameManager : MonoBehaviour {
 		    }
 		    else {
                 player.GetComponent<PlayerMovement>().enabled = true;
-			    GameObject[] enemies = GameObject.FindGameObjectsWithTag ("Enimigos");
-
-			    foreach(GameObject en in enemies){
-				    en.gameObject.SetActive (true);
-			    }
+                player.GetComponent<PlayerShootComponent>().enabled = true;
 			    gameState = GameState.Playing;
 		    }
 		    break;
