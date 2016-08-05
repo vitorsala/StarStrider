@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Enemy\EnemyShootCollision.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyShootComponent.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemySpawnerManager.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Level Data\LevelData.cs" />
      <Compile Include="Assets\Scripts\Level Data\Wave.cs" />

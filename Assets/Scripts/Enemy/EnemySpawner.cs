@@ -1,57 +1,47 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections.Generic;
 
+[Serializable]
 public class EnemySpawner : MonoBehaviour {
 
-    public GameObject enemyToSpawn;
-
-	public Path enemyPath;
-    public float enemySpeed;
-
-    public float timeBetweenEntities;
-
-    public int numberOfEnemies = 1;
-
-	public float delay = 0;
-
-	private float speed;
-    private float elapsedTimeSinceLastSpawn = 0;
-    private Vector3 origin;
+	[HideInInspector] public Wave data;
 
 	// Use this for initialization
 	void Start () {
-        origin = enemyPath.GetPoint(0f);
-        elapsedTimeSinceLastSpawn = timeBetweenEntities;
-		speed = GameManager.spawnerVelocity;
+		if(data.enemyPath == null)   Destroy(gameObject);
+
+		data.origin = data.enemyPath.GetPoint(0);
+
+		data.elapsedTimeSinceLastSpawn = data.timeBetweenEntities;
     }
 	
 	// Update is called once per frame
 	void Update () {
-		if (speed == 0) {
-			if (delay <= 0) {
-				elapsedTimeSinceLastSpawn += Time.deltaTime;
-				if (elapsedTimeSinceLastSpawn >= timeBetweenEntities && numberOfEnemies > 0) {
+		if((data.numberOfEnemies == 0 && transform.childCount == 0) || !data.active){
+            Destroy(gameObject);
+        }
+		else if (data.timeToStartSpawner <= 0) {
+			data.elapsedTimeSinceLastSpawn += Time.deltaTime;
+			if (data.elapsedTimeSinceLastSpawn >= data.timeBetweenEntities && data.numberOfEnemies > 0) {
 
-					GameObject spawnedEnemy = GameObject.Instantiate (enemyToSpawn);
-					spawnedEnemy.transform.SetParent(gameObject.transform);
-					spawnedEnemy.transform.position = origin;
-					FollowSplinePath fsp = spawnedEnemy.GetComponent<FollowSplinePath> ();
-					fsp.pathToFollow = enemyPath;
-					fsp.speed = enemySpeed;
+				GameObject spawnedEnemy = GameObject.Instantiate (data.enemyToSpawn);
+				spawnedEnemy.transform.SetParent(gameObject.transform);
+				spawnedEnemy.transform.position = data.origin;
+				FollowSplinePath fsp = spawnedEnemy.GetComponent<FollowSplinePath> ();
+				fsp.pathToFollow = data.enemyPath;
+				fsp.speed = data.enemySpeed;
+                EnemyShootComponent enemyShootComponent = spawnedEnemy.GetComponent<EnemyShootComponent>();
+				enemyShootComponent.type = data.shootType;
+				enemyShootComponent.numberOfShoot = data.numberOfShoot;
+				enemyShootComponent.projectileSpeed = data.projectileSpeed;
 
-					elapsedTimeSinceLastSpawn = 0;
-					numberOfEnemies--;
-				}
-			}
-			else {
-				delay -= Time.deltaTime;
+				data.elapsedTimeSinceLastSpawn = 0;
+				data.numberOfEnemies--;
 			}
 		}
 		else {
-			transform.Translate (0, -speed * Time.deltaTime, 0);
-			if (transform.localPosition.y <= 0) {
-				speed = 0;
-			}
+			data.timeToStartSpawner -= Time.deltaTime;
 		}
 	}
 }

@@ -108,10 +108,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shootObject: {fileID: 184068, guid: 759509e8464054343a6478977693a805, type: 2}
   rateOfFire: 0.3
-  projectileSpeed: 13
+  projectileSpeed: 2
+  doubleShootSpaceFromMiddle: 0.4
   targetTags:
   - Player
-  type: 0
+  arcShootNumber: 20
+  arcShootEnabled: 010101
+  type: 2
 --- !u!212 &21225470
 SpriteRenderer:
   m_ObjectHideFlags: 1

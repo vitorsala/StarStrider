@@ -4,14 +4,22 @@ using UnityEngine;
 [Serializable]
 public struct Wave {
 	public enum WaveType{
-		Enemy01, Enemy02, Meteor
+		Enemy, Obstacle
 	}
-	public WaveType type;
 
 	public bool active;
-	public int count;
-	public Time spawnTime;
+	public float enemySpeed;
+	public float timeBetweenEntities;
+	public int numberOfEnemies;
+	public float timeToStartSpawner;
+	public float elapsedTimeSinceLastSpawn;
+	public int numberOfShoot;
+	public float projectileSpeed;
 
-	public GameObject prefab;
+	public Path enemyPath;
+	public WaveType waveType;
+	public GameObject enemyToSpawn;
+	public Vector3 origin;
+	public EnemyShootComponent.ShootType shootType;
 }
 

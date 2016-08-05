@@ -22,19 +22,21 @@ public class PlayerShootComponent : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if(rateOfFire == 0) return;
+
 		elapsedTime += Time.deltaTime;
 		if (elapsedTime >= rateOfFire) {
 
-            float yoffset;
+            float yOffset;
             GameObject shoot;
 
             SpriteRenderer renderer = GetComponent<SpriteRenderer>();
-            yoffset = transform.position.y + (renderer.bounds.size.y / 2) + 0.5f;
+            yOffset = transform.position.y + (renderer.bounds.size.y / 2) + 0.5f;
 
             switch (type) {
 			case ShootType.Simple:
 
-				shoot = Instantiate(shootObject, new Vector3(transform.position.x, yoffset, transform.position.z), transform.rotation) as GameObject;
+				shoot = Instantiate(shootObject, new Vector3(transform.position.x, yOffset, transform.position.z), transform.rotation) as GameObject;
 				shoot.GetComponent<PlayerShootCollision>().targetTags = targetTags;
 				shoot.AddComponent<LinearMovement>();
 				shoot.GetComponent<LinearMovement>().magnitude = Vector3.up * projectileSpeed;
@@ -42,12 +44,12 @@ public class PlayerShootComponent : MonoBehaviour {
 
             case ShootType.Double:
 
-                shoot = Instantiate(shootObject, new Vector3(transform.position.x - doubleShootSpaceFromMiddle, yoffset, transform.position.z), transform.rotation) as GameObject;
+                shoot = Instantiate(shootObject, new Vector3(transform.position.x - doubleShootSpaceFromMiddle, yOffset, transform.position.z), transform.rotation) as GameObject;
 				shoot.GetComponent<PlayerShootCollision>().targetTags = targetTags;
 				shoot.AddComponent<LinearMovement>();
 				shoot.GetComponent<LinearMovement>().magnitude = Vector3.up * projectileSpeed;
 
-                shoot = Instantiate(shootObject, new Vector3(transform.position.x + doubleShootSpaceFromMiddle, yoffset, transform.position.z), transform.rotation) as GameObject;
+                shoot = Instantiate(shootObject, new Vector3(transform.position.x + doubleShootSpaceFromMiddle, yOffset, transform.position.z), transform.rotation) as GameObject;
 				shoot.GetComponent<PlayerShootCollision>().targetTags = targetTags;
 				shoot.AddComponent<LinearMovement>();
 				shoot.GetComponent<LinearMovement>().magnitude = Vector3.up * projectileSpeed;
