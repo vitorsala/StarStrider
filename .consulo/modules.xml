@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ModuleManager">
+    <modules>
+      <module name="StarStrider" dirurl="file://$PROJECT_DIR$" current-layer="Editor">
+        <module-layer name="Editor">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.4.0 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="Editor" file-name="$ModuleName$">
+            <define>UNITY_EDITOR</define>
+            <define>UNITY_5_0</define>
+            <define>UNITY_5_4</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+        <module-layer name="Linux (32 bit)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.4.0 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="Linux32" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_LINUX</define>
+            <define>UNITY_5_0</define>
+            <define>UNITY_5_4</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+        <module-layer name="Linux (64 bit)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.4.0 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="Linux64" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_LINUX</define>
+            <define>UNITY_5_0</define>
+            <define>UNITY_5_4</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+        <module-layer name="Linux (any)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.4.0 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="LinuxUniversal" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_LINUX</define>
+            <define>UNITY_5_0</define>
+            <define>UNITY_5_4</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+        <module-layer name="MacOS (32 bit)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.4.0 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="OSX" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_OSX</define>
+            <define>UNITY_5_0</define>
+            <define>UNITY_5_4</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+        <module-layer name="MacOS (64 bit)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.4.0 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="OSX64" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_OSX</define>
+            <define>UNITY_5_0</define>
+            <define>UNITY_5_4</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+        <module-layer name="MacOS (any)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.4.0 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="OSXUniversal" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_OSX</define>
+            <define>UNITY_5_0</define>
+            <define>UNITY_5_4</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+        <module-layer name="Windows (32 bit)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.4.0 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="Windows" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_WIN</define>
+            <define>UNITY_5_0</define>
+            <define>UNITY_5_4</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+        <module-layer name="Windows (64 bit)">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 5.4.0 (predefined)" output-dir="$ModuleProductionOutputDirPath$" build-target="Windows64" file-name="$ModuleName$">
+            <define>UNITY_STANDALONE_WIN</define>
+            <define>UNITY_5_0</define>
+            <define>UNITY_5_4</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp-firstpass" current-layer="Editor">
+        <module-layer name="Editor">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Windows (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Windows (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+      </module>
+      <module name="Assembly-UnityScript-firstpass" current-layer="Editor">
+        <module-layer name="Editor">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Windows (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Windows (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp-Editor" current-layer="Editor">
+        <module-layer name="Editor">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-nunit-child" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="nunit.framework" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.3.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+        </module-layer>
+        <module-layer name="Linux (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-nunit-child" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="nunit.framework" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.3.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+        </module-layer>
+        <module-layer name="Linux (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-nunit-child" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="nunit.framework" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.3.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+        </module-layer>
+        <module-layer name="Linux (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-nunit-child" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="nunit.framework" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.3.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+        </module-layer>
+        <module-layer name="MacOS (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-nunit-child" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="nunit.framework" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.3.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+        </module-layer>
+        <module-layer name="MacOS (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-nunit-child" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="nunit.framework" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.3.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+        </module-layer>
+        <module-layer name="MacOS (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-nunit-child" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="nunit.framework" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.3.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+        </module-layer>
+        <module-layer name="Windows (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-nunit-child" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="nunit.framework" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.3.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+        </module-layer>
+        <module-layer name="Windows (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <extension id="unity3d-nunit-child" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/BezierCurveInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Builder.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LevelWaveEditor.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/LineInspector.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/PathInspector.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="nunit.framework" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.3.dll!/" />
+              </binaries>
+            </library>
+          </orderEntry>
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp" current-layer="Editor">
+        <module-layer name="Editor">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Linux (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="MacOS (any)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Windows (32 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+        <module-layer name="Windows (64 bit)">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Background/BackgroundLoopSystem.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/DelayedDestroy.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemyShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Enemy/EnemySpawner.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/GameManager.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/LevelData.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Level Data/Wave.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/AI/FollowSplinePath.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Bezier.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/BezierCurve.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Line.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Path/Data/Path.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/HorizontalCosMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/LinearMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalLinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Movement/VerticalSinMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Patterns/Shoot/ShootPattern.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerMovement.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootCollision.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Player/PlayerShootComponent.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/TimedBomb.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadLevel.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/UI/UILoadScene.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataReceiver.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/DataSender.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/RemoteConnection.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/ScreenStream.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/Utils.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs" />
+          <content url="file://$USER_HOME$/Documents/Giant Bonsai Studios/StarStrider/Assets/Scripts/Unity Remote/WebCamStreamer.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+      </module>
+    </modules>
+  </component>
+</project>

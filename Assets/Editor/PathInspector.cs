@@ -2,7 +2,7 @@
 using UnityEditor;
 
 [CustomEditor(typeof(Path))]
-public class PathInspector : Editor {
+public class    PathInspector : Editor {
 
 	private static Color[] modeColors = {
 		Color.white,

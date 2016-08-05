@@ -9,7 +9,7 @@ public class LinearMovement : MonoBehaviour {
 	void Start () {
 	}
 
-	void FixedUpdate(){
-		transform.Translate(magnitude * Time.fixedDeltaTime);
+	void Update() {
+        transform.Translate(magnitude * Time.deltaTime);
 	}
 }

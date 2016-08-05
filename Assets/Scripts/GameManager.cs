@@ -17,10 +17,11 @@ public class GameManager : MonoBehaviour {
 
 	public int score = 0;
 	public int life = 1;
-
+	
 	//
 	public GameObject mainCanvas;
 	public Text mainScoreDisplay;
+
 
 	public GameObject gameOverCanvas;
 	public Text gameOverScoreDisplay;
@@ -28,7 +29,6 @@ public class GameManager : MonoBehaviour {
 	//
 	public static float spawnerVelocity = 5f;
 
-	[HideInInspector] public LevelData data;
 
 	private float timer;
 
@@ -42,14 +42,14 @@ public class GameManager : MonoBehaviour {
 			player = GameObject.FindWithTag ("Player");
 		}
 
-		data = gameObject.GetComponent<LevelData> ();
-
 		mainCanvas.SetActive (true);
 		gameOverCanvas.SetActive (false);
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		//Debug.Log("Elapsed Time: " + Time.timeSinceLevelLoad.ToString());
+
 		switch (gameState) {
 		case GameState.Starting:
 
@@ -84,5 +84,5 @@ public class GameManager : MonoBehaviour {
 		mainScoreDisplay.text = "Score: "+score;
 		gameOverScoreDisplay.text = mainScoreDisplay.text;
 	}
-		
+
 }

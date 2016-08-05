@@ -123,18 +123,21 @@ public class Path : MonoBehaviour {
             }
         }
 
-		if (GetSegmentType(index) == SegmentType.Line) {
-			int nodeSegIni =  index / 3;
-			nodeSegIni *= 3;
-			points[nodeSegIni + 1] = Vector3.Lerp(points[nodeSegIni], points[nodeSegIni + 3], 0.333f);
-			points[nodeSegIni + 2] = Vector3.Lerp(points[nodeSegIni], points[nodeSegIni + 3], 0.666f);
+
+        if (index == points.Length && GetSegmentType(index) == SegmentType.Line) {
+            int nodeSegIni =  index / 3;
+            nodeSegIni *= 3;
+            points[nodeSegIni + 1] = Vector3.Lerp(points[nodeSegIni], points[nodeSegIni + 3], 0.333f);
+            points[nodeSegIni + 2] = Vector3.Lerp(points[nodeSegIni], points[nodeSegIni + 3], 0.666f);
 		}
 
+        if(index - 3 >= 0 && GetSegmentType(index - 3) == SegmentType.Line) {
 
-		int teste =  (index / 3) - 1;
-		teste *= 3;
-		points[teste + 1] = Vector3.Lerp(points[teste], points[teste + 3], 0.333f);
-		points[teste + 2] = Vector3.Lerp(points[teste], points[teste + 3], 0.666f);
+            int nodeSegIni =  (index - 3) / 3;
+            nodeSegIni *= 3;
+            points[nodeSegIni + 1] = Vector3.Lerp(points[nodeSegIni], points[nodeSegIni + 3], 0.333f);
+            points[nodeSegIni + 2] = Vector3.Lerp(points[nodeSegIni], points[nodeSegIni + 3], 0.666f);
+        }
 
         points[index] = point;
         EnforceMode(index);

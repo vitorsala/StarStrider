@@ -98,6 +98,9 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditorConsuloPlugin5.3">
+ <HintPath>/Users/vitor.kawai/Documents/Giant Bonsai Studios/StarStrider/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.3.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
