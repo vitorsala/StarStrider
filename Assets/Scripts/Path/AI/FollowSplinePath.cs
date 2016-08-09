@@ -11,6 +11,7 @@ public class FollowSplinePath : MonoBehaviour {
     
 	// Use this for initialization
 	void Start () {
+		//primeiro delay
 	}
 	
 	// Update is called once per frame
@@ -19,6 +20,8 @@ public class FollowSplinePath : MonoBehaviour {
 			t += Time.fixedDeltaTime * speed;
 
 			if (t >= 1f) {
+				//delay entre segmento
+				//zerar o deltatime
 				if (pathToFollow.loop) {
 					t = 0;
 				}

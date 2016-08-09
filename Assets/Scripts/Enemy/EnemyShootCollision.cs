@@ -10,12 +10,20 @@ public class EnemyShootCollision : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D (Collider2D col){
-        foreach(string tag in targetTags) {
+        /*foreach(string tag in targetTags) {
             if(tag == col.gameObject.tag) {
                 // Fazer a lógica da colisão
 
                 GameManager.sharedInstance.life--;
             }
-        }
+        }*/
+
+		//JEITO BURRO 
+		if(col.gameObject.tag == "Player") {
+			GameManager.sharedInstance.life--;
+		}
+		if(col.gameObject.tag == "Obstacle") {
+			Destroy(gameObject);
+		}
 	}
 }

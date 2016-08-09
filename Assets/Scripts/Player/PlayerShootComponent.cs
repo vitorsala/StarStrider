@@ -40,6 +40,10 @@ public class PlayerShootComponent : MonoBehaviour {
 				shoot.GetComponent<PlayerShootCollision>().targetTags = targetTags;
 				shoot.AddComponent<LinearMovement>();
 				shoot.GetComponent<LinearMovement>().magnitude = Vector3.up * projectileSpeed;
+				
+				//LUL
+					shoot.transform.SetParent(gameObject.transform);
+
                 break;
 
             case ShootType.Double:

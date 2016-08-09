@@ -2,7 +2,7 @@
 
 public class VerticalLinMovement : MonoBehaviour {
 
-    [HideInInspector]
+    //[HideInInspector]
     public float magnitude;
 
 	// Use this for initialization

@@ -14,6 +14,7 @@ public class Path : MonoBehaviour {
     [SerializeField] private Vector3[] points;
 	[SerializeField] private SegmentType[] types;
     [SerializeField] private BezierControlPointMode[] modes;
+	[SerializeField] private float[] segmentDelay;
 
     private bool _loop;
     public bool loop {
@@ -64,6 +65,7 @@ public class Path : MonoBehaviour {
             i = points.Length - 4;
         }
         else {
+			//OLHA ISSO AQUI - path inteiro t = 1; não cada segmento
             t = Mathf.Clamp01(t) * SegmentCount;
             i = (int)t;
             t -= i;
@@ -205,6 +207,9 @@ public class Path : MonoBehaviour {
             modes[modes.Length - 1] = modes[0];
             EnforceMode(0);
         }
+
+		Array.Resize(ref segmentDelay, segmentDelay.Length + 1);
+		segmentDelay[segmentDelay.Length - 1] = 0;
     }
 
     public void RemoveSegment() {

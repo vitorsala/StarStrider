@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Enemy\EnemyShootComponent.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemySpawnerManager.cs" />
+     <Compile Include="Assets\Scripts\Enemy\ObstacleCollision.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Level Data\LevelData.cs" />
      <Compile Include="Assets\Scripts\Level Data\Wave.cs" />
@@ -76,11 +77,11 @@
      <Compile Include="Assets\Scripts\Unity Remote\ScreenStream.cs" />
      <Compile Include="Assets\Scripts\Unity Remote\Utils.cs" />
      <Compile Include="Assets\Scripts\Unity Remote\WebCamStreamer.cs" />
- <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

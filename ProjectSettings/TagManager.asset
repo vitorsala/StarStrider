@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Boundary
   - EnemyController
+  - Obstacle
   layers:
   - Default
   - TransparentFX
