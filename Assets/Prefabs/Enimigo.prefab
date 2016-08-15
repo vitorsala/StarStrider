@@ -14,6 +14,7 @@ GameObject:
   - 114: {fileID: 11413380}
   - 95: {fileID: 9567246}
   - 114: {fileID: 11456484}
+  - 114: {fileID: 114000013170040364}
   m_Layer: 0
   m_Name: Enimigo
   m_TagString: Enimigos
@@ -112,7 +113,7 @@ MonoBehaviour:
   doubleShootSpaceFromMiddle: 0.4
   targetTags:
   - Player
-  arcShootNumber: 20
+  numberOfShoot: 3
   arcShootEnabled: 010101
   type: 2
 --- !u!212 &21225470
@@ -159,3 +160,19 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 184068}
   m_IsPrefabParent: 1
+--- !u!114 &114000013170040364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030304b4ccf724bb1a0a63ee082ea1a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitpoints: 2
+  score: 100
+  puObject: {fileID: 1000013691158634, guid: 51e4c443cb23c425f843cb3787d29e62, type: 2}
+  type: 1
+  puChance: 1

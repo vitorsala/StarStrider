@@ -23,9 +23,14 @@ public class PlayerShootCollision : MonoBehaviour {
 
 		//JEITO BURRO 
 		if(col.gameObject.tag == "Enimigos") {
-			GameManager.sharedInstance.changeScore(GameManager.sharedInstance.score + 1);
-			Destroy(col.gameObject);
 			Destroy(gameObject);
+			col.gameObject.GetComponent<EnemyComponent>().hitpoints--;
+			if(col.gameObject.GetComponent<EnemyComponent>().hitpoints <= 0) {
+				GameManager.sharedInstance.changeScore(GameManager.sharedInstance.score + col.gameObject.GetComponent<EnemyComponent>().score);
+				col.gameObject.GetComponent<EnemyComponent>().spawnPU();
+				Destroy(col.gameObject);
+			}
+
 		}
 		if(col.gameObject.tag == "Obstacle") {
 			Destroy(gameObject);

@@ -74,6 +74,9 @@
  <Reference Include="UnityEditor.TreeEditor">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditorConsuloPlugin5.3">
+ <HintPath>/Users/Bruno/Documents/ios/StarStriderUnity/StarStrider/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.3.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -94,9 +97,6 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditorConsuloPlugin5.3">
- <HintPath>/Users/Bruno/Documents/ios/StarStriderUnity/StarStrider/Assets/Editor/Plugins/UnityEditorConsuloPlugin5.3.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

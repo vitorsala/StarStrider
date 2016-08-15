@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Background\BackgroundLoopSystem.cs" />
      <Compile Include="Assets\Scripts\DelayedDestroy.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyComponent.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyShootCollision.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyShootComponent.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemySpawner.cs" />
