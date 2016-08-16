@@ -19,9 +19,15 @@ public class EnemyShootCollision : MonoBehaviour {
         }*/
 
 		//JEITO BURRO 
+		//atingir jogador
 		if(col.gameObject.tag == "Player") {
-			GameManager.sharedInstance.life--;
+			if(!col.gameObject.GetComponent<PlayerComponent>().isInvul) {
+				GameManager.sharedInstance.life--;
+				col.gameObject.GetComponent<PlayerComponent>().damageInvul();
+			}
+			Destroy(gameObject);
 		}
+		//atingir cenario
 		if(col.gameObject.tag == "Obstacle") {
 			Destroy(gameObject);
 		}

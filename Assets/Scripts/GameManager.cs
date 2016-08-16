@@ -17,11 +17,13 @@ public class GameManager : MonoBehaviour {
 
 	public int score = 0;
 	public int life = 1;
+	public int bonusLifeScore = 1000;
+	private int scoreSinceLife = 0;
 	
 	//
 	public GameObject mainCanvas;
 	public Text mainScoreDisplay;
-
+	public Text livesDisplay;
 
 	public GameObject gameOverCanvas;
 	public Text gameOverScoreDisplay;
@@ -44,6 +46,8 @@ public class GameManager : MonoBehaviour {
 
 		mainCanvas.SetActive (true);
 		gameOverCanvas.SetActive (false);
+
+		livesDisplay.text = "Lives: " + GameManager.sharedInstance.life;
 	}
 	
 	// Update is called once per frame
@@ -58,6 +62,7 @@ public class GameManager : MonoBehaviour {
 			    player.transform.localPosition = Vector3.MoveTowards (player.transform.localPosition, startingPoint, step);
 		    }
 		    else {
+				player.GetComponent<PlayerComponent>().isInvul = false;
                 player.GetComponent<PlayerMovement>().enabled = true;
                 player.GetComponent<PlayerShootComponent>().enabled = true;
 			    gameState = GameState.Playing;
@@ -80,9 +85,18 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void changeScore(int newScore){
+		scoreSinceLife += newScore - score;
 		score = newScore;
 		mainScoreDisplay.text = "Score: "+score;
 		gameOverScoreDisplay.text = mainScoreDisplay.text;
+
+		//handling de ganhar vidas
+		if(scoreSinceLife >= bonusLifeScore) {
+			scoreSinceLife -= bonusLifeScore;
+			life++;
+
+			//TODO: efeitos de ganhar vida extra
+		}
 	}
 
 }

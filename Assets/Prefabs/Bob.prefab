@@ -14,6 +14,7 @@ GameObject:
   - 114: {fileID: 11452332}
   - 114: {fileID: 11451580}
   - 95: {fileID: 9569364}
+  - 114: {fileID: 114000013825892356}
   m_Layer: 0
   m_Name: Bob
   m_TagString: Player
@@ -110,7 +111,7 @@ MonoBehaviour:
   projectileSpeed: 15
   targetTags:
   - Enimigos
-  type: 1
+  type: 2
   doubleShootSpaceFromMiddle: 0.4
 --- !u!212 &21211274
 SpriteRenderer:
@@ -156,3 +157,16 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 143446}
   m_IsPrefabParent: 1
+--- !u!114 &114000013825892356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b04b3e5ef23d44598b870df8425b5afe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInvul: 1
+  defaultInvulTimer: 3

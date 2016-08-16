@@ -43,7 +43,6 @@ public class EnemyComponent : MonoBehaviour
 				float roll = Random.value;
 				if(roll <= puChance) {
 					//Spawn PowerUp
-					Debug.Log("lul");
 					GameObject lul = Instantiate(puObject, transform.position, transform.rotation) as GameObject;
 
 				}

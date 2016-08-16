@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\Patterns\Movement\VerticalLinMovement.cs" />
      <Compile Include="Assets\Scripts\Patterns\Movement\VerticalSinMovement.cs" />
      <Compile Include="Assets\Scripts\Patterns\Shoot\ShootPattern.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerComponent.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerShootCollision.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerShootComponent.cs" />
