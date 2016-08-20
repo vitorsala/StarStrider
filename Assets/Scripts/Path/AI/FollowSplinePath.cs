@@ -7,30 +7,43 @@ public class FollowSplinePath : MonoBehaviour {
 
     [HideInInspector] public float speed = 1;
 
+    [HideInInspector] public bool ignoreDelay = false;
+
     private float t = 0;
-    
-	// Use this for initialization
+    private float delayTime = 0;
+    private int segmentNumber;
+
 	void Start () {
-		//primeiro delay
+        segmentNumber = -1;
 	}
 	
-	// Update is called once per frame
 	void FixedUpdate () {
 		if(pathToFollow != null) {
-			t += Time.fixedDeltaTime * speed;
+            if(delayTime <= 0 || ignoreDelay) {
+                t += Time.fixedDeltaTime * speed;
 
-			if (t >= 1f) {
-				//delay entre segmento
-				//zerar o deltatime
-				if (pathToFollow.loop) {
-					t = 0;
-				}
-				else {
-					Destroy(gameObject);
-					t = 1;
-				}
-			}
-			transform.position = pathToFollow.GetPoint(t);
+                if(t >= 1f) {
+                    //delay entre segmento
+                    //zerar o deltatime
+                    if(pathToFollow.loop) {
+                        t = 0;
+                    }
+                    else {
+                        Destroy(gameObject);
+                        t = 1;
+                    }
+                }
+
+                PointData point = pathToFollow.GetPoint(t);
+                transform.position = point.point;
+                if(segmentNumber != point.segmentIndex) {
+                    segmentNumber = point.segmentIndex;
+                    delayTime = point.delay;
+                }
+            }
+            else {
+                delayTime -= Time.fixedDeltaTime;
+            }
 		}   
 	}
 }

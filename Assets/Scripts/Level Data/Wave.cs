@@ -4,10 +4,11 @@ using UnityEngine;
 [Serializable]
 public struct Wave {
 	public enum WaveType{
-		Enemy, Obstacle
+		Wasp, Kamikaze, Obstacle
 	}
 
 	public bool active;
+    public bool ignoreDelay;
 	public float enemySpeed;
 	public float timeBetweenEntities;
 	public int numberOfEnemies;

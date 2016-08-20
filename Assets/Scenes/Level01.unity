@@ -90,57 +90,6 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &7953095
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 7953096}
-  - 114: {fileID: 7953097}
-  m_Layer: 0
-  m_Name: InOutLeft
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7953096
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 7953095}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1142655071}
-  m_RootOrder: 4
---- !u!114 &7953097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 7953095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a175601f4c0e24c179aa973b8a50ee67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points:
-  - {x: 0, y: 1.15, z: 0}
-  - {x: 0.00089474185, y: 0.96437216, z: 0}
-  - {x: 0.0017894837, y: 0.7787443, z: 0}
-  - {x: 0.0026869124, y: 0.59255904, z: 0}
-  - {x: -0.24903716, y: 0.51847863, z: 0}
-  - {x: -0.45226437, y: 0.8580132, z: 0}
-  - {x: -0.82952106, y: 0.8580132, z: 0}
-  types: 010000000000000000000000
-  modes: 010000000000000000000000
-  segmentDelay: []
 --- !u!1 &47399736
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,16 +131,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points:
-  - {x: 0, y: 1.15, z: 0}
-  - {x: 0.00089474185, y: 0.96437216, z: 0}
-  - {x: 0.0017894837, y: 0.7787443, z: 0}
-  - {x: 0.0026869124, y: 0.59255904, z: 0}
-  - {x: 0.2402152, y: 0.5107201, z: 0}
-  - {x: 0.45379427, y: 0.8599569, z: 0}
-  - {x: 0.8115151, y: 0.88994473, z: 0}
-  types: 01000000000000000000000000000000
-  modes: 010000000000000000000000
-  segmentDelay: []
+  - {x: 0, y: 1.1723406, z: 0}
+  - {x: 0, y: 1.001734, z: 0}
+  - {x: 0, y: 0.8311273, z: 0}
+  - {x: 0, y: 0.6600083, z: 0}
+  - {x: 0.2633017, y: 0.8602833, z: 0}
+  - {x: 0.48996782, y: 0.87493753, z: 0}
+  - {x: 0.783178, y: 0.65756595, z: 0}
+  types: 0100000000000000
+  modes: 000000000000000000000000
+  segmentDelay:
+  - 0
+  - 0
 --- !u!1 &141892650
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,96 +209,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waves:
   - active: 1
-    enemySpeed: 0.4
-    timeBetweenEntities: 0.5
-    numberOfEnemies: 10
+    ignoreDelay: 0
+    enemySpeed: 0
+    timeBetweenEntities: 0
+    numberOfEnemies: 0
     timeToStartSpawner: 0
     elapsedTimeSinceLastSpawn: 0
-    numberOfShoot: 10
-    projectileSpeed: 12
-    enemyPath: {fileID: 1845287138}
-    waveType: 0
-    enemyToSpawn: {fileID: 184068, guid: 977f8143e20f97a4f85e90f8ddab7929, type: 2}
-    origin: {x: 0, y: 0, z: 0}
-    shootType: 1
-  - active: 1
-    enemySpeed: 0.4
-    timeBetweenEntities: 0.5
-    numberOfEnemies: 10
-    timeToStartSpawner: 12
-    elapsedTimeSinceLastSpawn: 0
-    numberOfShoot: 10
-    projectileSpeed: 12
-    enemyPath: {fileID: 1737919533}
-    waveType: 0
-    enemyToSpawn: {fileID: 184068, guid: 977f8143e20f97a4f85e90f8ddab7929, type: 2}
-    origin: {x: 0, y: 0, z: 0}
-    shootType: 1
-  - active: 1
-    enemySpeed: 0.4
-    timeBetweenEntities: 0.5
-    numberOfEnemies: 10
-    timeToStartSpawner: 19
-    elapsedTimeSinceLastSpawn: 0
-    numberOfShoot: 3
-    projectileSpeed: 12
-    enemyPath: {fileID: 7953097}
-    waveType: 0
-    enemyToSpawn: {fileID: 184068, guid: 977f8143e20f97a4f85e90f8ddab7929, type: 2}
-    origin: {x: 0, y: 0, z: 0}
-    shootType: 2
-  - active: 1
-    enemySpeed: 0.4
-    timeBetweenEntities: 0.5
-    numberOfEnemies: 10
-    timeToStartSpawner: 19
-    elapsedTimeSinceLastSpawn: 0
-    numberOfShoot: 3
-    projectileSpeed: 12
-    enemyPath: {fileID: 47399738}
-    waveType: 0
-    enemyToSpawn: {fileID: 184068, guid: 977f8143e20f97a4f85e90f8ddab7929, type: 2}
-    origin: {x: 0, y: 0, z: 0}
-    shootType: 2
-  - active: 1
-    enemySpeed: 0.4
-    timeBetweenEntities: 0.5
-    numberOfEnemies: 10
-    timeToStartSpawner: 25
-    elapsedTimeSinceLastSpawn: 0
-    numberOfShoot: 10
-    projectileSpeed: 12
-    enemyPath: {fileID: 1061531695}
-    waveType: 0
-    enemyToSpawn: {fileID: 184068, guid: 977f8143e20f97a4f85e90f8ddab7929, type: 2}
-    origin: {x: 0, y: 0, z: 0}
-    shootType: 2
-  - active: 1
-    enemySpeed: 0.4
-    timeBetweenEntities: 0.5
-    numberOfEnemies: 10
-    timeToStartSpawner: 29
-    elapsedTimeSinceLastSpawn: 0
-    numberOfShoot: 10
-    projectileSpeed: 12
-    enemyPath: {fileID: 1845287138}
-    waveType: 0
-    enemyToSpawn: {fileID: 184068, guid: 977f8143e20f97a4f85e90f8ddab7929, type: 2}
-    origin: {x: 0, y: 0, z: 0}
-    shootType: 1
-  - active: 1
-    enemySpeed: 0.4
-    timeBetweenEntities: 0.5
-    numberOfEnemies: 10
-    timeToStartSpawner: 29
-    elapsedTimeSinceLastSpawn: 0
-    numberOfShoot: 10
-    projectileSpeed: 12
-    enemyPath: {fileID: 1737919533}
-    waveType: 0
-    enemyToSpawn: {fileID: 184068, guid: 977f8143e20f97a4f85e90f8ddab7929, type: 2}
-    origin: {x: 0, y: 0, z: 0}
-    shootType: 1
+    numberOfShoot: 0
+    projectileSpeed: 0
+    enemyPath: {fileID: 0}
+    waveType: 1
+    enemyToSpawn: {fileID: 0}
+    origin: {x: 1, y: 1, z: 0}
+    shootType: 0
 --- !u!114 &141892654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -589,6 +463,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 754695160}
   m_RootOrder: 0
+--- !u!1 &426123505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 426123506}
+  - 114: {fileID: 426123507}
+  m_Layer: 0
+  m_Name: InOutLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &426123506
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 426123505}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1142655071}
+  m_RootOrder: 4
+--- !u!114 &426123507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 426123505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a175601f4c0e24c179aa973b8a50ee67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 1.1723406, z: 0}
+  - {x: 0, y: 1.001734, z: 0}
+  - {x: 0, y: 0.8311273, z: 0}
+  - {x: 0, y: 0.6600083, z: 0}
+  - {x: 0.2633017, y: 0.8602833, z: 0}
+  - {x: 0.48996782, y: 0.87493753, z: 0}
+  - {x: 0.783178, y: 0.65756595, z: 0}
+  types: 0100000000000000
+  modes: 000000000000000000000000
+  segmentDelay:
+  - 0
+  - 0
 --- !u!1 &552235947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,19 +1146,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points:
-  - {x: -0.8336741, y: 1, z: 0}
-  - {x: -0.63665247, y: 0.39487824, z: 0}
-  - {x: -0.4396309, y: 1.3117293, z: 0}
-  - {x: -0.24201769, y: 1, z: 0}
-  - {x: 0.19825086, y: 0.3054887, z: 0}
-  - {x: 0.43369249, y: 1.1787865, z: 0}
-  - {x: 0.49550906, y: 0.5965849, z: 0}
-  - {x: 0.5297377, y: 0.27421224, z: 0}
-  - {x: 0.79550904, y: 0.5965849, z: 0}
-  - {x: 1.095509, y: 0.5965849, z: 0}
+  - {x: -0.831464, y: 0.75154376, z: 0}
+  - {x: -0.5507283, y: 1.3230611, z: 0}
+  - {x: -0.70870054, y: 0.37368354, z: 0}
+  - {x: -0.32782716, y: 0.7278282, z: 0}
+  - {x: -0.1725926, y: 0.8721688, z: 0}
+  - {x: 0.35978255, y: 0.3571573, z: 0}
+  - {x: 0.14272708, y: 0.7571367, z: 0}
+  - {x: -0.22135201, y: 1.4280442, z: 0}
+  - {x: 0.50134414, y: 0.7424825, z: 0}
+  - {x: 0.80134416, y: 0.7424825, z: 0}
   types: 000000000000000000000000
-  modes: 01000000010000000100000000000000
-  segmentDelay: []
+  modes: 00000000010000000100000000000000
+  segmentDelay:
+  - 0
+  - 0.5
+  - 0
 --- !u!1 &1092136070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,7 +1266,7 @@ Transform:
   - {fileID: 1737919532}
   - {fileID: 1845287137}
   - {fileID: 47399737}
-  - {fileID: 7953096}
+  - {fileID: 426123506}
   m_Father: {fileID: 184232093}
   m_RootOrder: 2
 --- !u!1 &1148053312
@@ -1900,13 +1830,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points:
-  - {x: 0.8146046, y: 1, z: 0}
-  - {x: 0.27314508, y: 1, z: 0}
-  - {x: -0.2683144, y: 1, z: 0}
-  - {x: -0.8237465, y: 1, z: 0}
+  - {x: -0.7768121, y: 1.0477793, z: 0}
+  - {x: -0.53702277, y: 1.3983173, z: 0}
+  - {x: 0.5795788, y: 0.7010744, z: 0}
+  - {x: 0.82008827, y: 1.0526643, z: 0}
   types: 01000000
   modes: 0000000000000000
-  segmentDelay: []
+  segmentDelay:
+  - 0
 --- !u!1 &1754720816
 GameObject:
   m_ObjectHideFlags: 0
@@ -2010,13 +1941,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points:
-  - {x: -0.8336741, y: 1, z: 0}
-  - {x: -0.28248835, y: 1, z: 0}
-  - {x: 0.2686974, y: 1, z: 0}
-  - {x: 0.83070683, y: 1, z: 0}
+  - {x: 0.7692102, y: 1.0282406, z: 0}
+  - {x: 0.47953457, y: 1.370645, z: 0}
+  - {x: -0.4793513, y: 0.6848082, z: 0}
+  - {x: -0.7698968, y: 1.0282406, z: 0}
   types: 01000000
   modes: 0000000000000000
-  segmentDelay: []
+  segmentDelay:
+  - 0
 --- !u!1 &1920113031 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 143446, guid: cdc0bd2f87a79dc4484bab375c07ed51, type: 2}

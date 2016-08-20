@@ -11,7 +11,7 @@ public class EnemySpawner : MonoBehaviour {
 	void Start () {
 		if(data.enemyPath == null)   Destroy(gameObject);
 
-		data.origin = data.enemyPath.GetPoint(0);
+		data.origin = data.enemyPath.GetPoint(0).point;
 
 		data.elapsedTimeSinceLastSpawn = data.timeBetweenEntities;
     }
@@ -28,9 +28,12 @@ public class EnemySpawner : MonoBehaviour {
 				GameObject spawnedEnemy = GameObject.Instantiate (data.enemyToSpawn);
 				spawnedEnemy.transform.SetParent(gameObject.transform);
 				spawnedEnemy.transform.position = data.origin;
+
 				FollowSplinePath fsp = spawnedEnemy.GetComponent<FollowSplinePath> ();
 				fsp.pathToFollow = data.enemyPath;
 				fsp.speed = data.enemySpeed;
+                fsp.ignoreDelay = data.ignoreDelay;
+
                 EnemyShootComponent enemyShootComponent = spawnedEnemy.GetComponent<EnemyShootComponent>();
 				enemyShootComponent.type = data.shootType;
 				enemyShootComponent.numberOfShoot = data.numberOfShoot;

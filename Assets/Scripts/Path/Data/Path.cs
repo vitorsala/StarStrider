@@ -56,6 +56,9 @@ public class Path : MonoBehaviour {
 		types = new SegmentType[] {
 			SegmentType.Curve
 		};
+        segmentDelay = new float[] {
+            0f
+        };
     }
 
     private int GetIndex(ref float t) {
@@ -74,15 +77,22 @@ public class Path : MonoBehaviour {
         return i;
     }
 
-    public Vector3 GetPoint(float t) {
+    public PointData GetPoint(float t) {
         int i = GetIndex(ref t);
-		int segi = i / 3;
-		if (types[segi] == SegmentType.Curve)
-			return transform.TransformPoint(Bezier.GetPoint(t, points[i], points[i + 1], points[i + 2], points[i + 3]));
-		else
-			return transform.TransformPoint(Vector3.Lerp(points[i], points[i + 3], t));
+        int segi = i / 3;
+        PointData data;
+        data.segmentIndex = segi;
+        data.delay = segmentDelay[segi];
+
+        if(types[segi] == SegmentType.Curve) {
+            data.point = transform.TransformPoint(Bezier.GetPoint(t, points[i], points[i + 1], points[i + 2], points[i + 3]));
+        }
+        else {
+            data.point = transform.TransformPoint(Vector3.Lerp(points[i], points[i + 3], t));
+        }
+        return data;
     }
-    
+   
     public Vector3 GetVelocity(float t) {
         int i = GetIndex(ref t);
         return transform.TransformPoint(Bezier.GetDerivative(t, points[i], points[i + 1], points[i + 2], points[i + 3]) - transform.position);
@@ -163,7 +173,33 @@ public class Path : MonoBehaviour {
         EnforceMode(index);
     }
 
-	public void SetSegmentType(int index, SegmentType type){
+    public float GetSegmentDelay(int index) {
+        int segmentIndex = index / 3;
+        if(segmentIndex >= SegmentCount) {
+            segmentIndex--;
+        }
+        return segmentDelay[segmentIndex];
+    }
+
+    public void SetSegmentDelay(int index, float delay) {
+
+        int segmentIndex = index / 3;
+        if(segmentIndex >= SegmentCount) {
+            segmentIndex--;
+        }
+
+        segmentDelay[segmentIndex] = delay;
+    }
+
+    public SegmentType GetSegmentType(int index) {
+        int segmentIndex = index / 3;
+        if(segmentIndex >= SegmentCount) {
+            segmentIndex--;
+        }
+        return types[segmentIndex];
+    }
+
+    public void SetSegmentType(int index, SegmentType type){
 		int segmentIndex = index / 3;
 		int nodeIndex =  segmentIndex * 3;
 		if (segmentIndex >= SegmentCount) {
@@ -176,13 +212,6 @@ public class Path : MonoBehaviour {
 		types[segmentIndex] = type;
 	}
 
-	public SegmentType GetSegmentType(int index){
-		int segmentIndex = index / 3;
-		if (segmentIndex >= SegmentCount) {
-			segmentIndex--;
-		}
-		return types[segmentIndex];
-	}
 
     public void AddSegment() {
         Vector3 point = points[points.Length - 1];
@@ -201,15 +230,16 @@ public class Path : MonoBehaviour {
 		Array.Resize(ref types, types.Length + 1);
 		types[types.Length - 1] = types[types.Length - 2];
 
+        Array.Resize(ref segmentDelay, segmentDelay.Length + 1);
+        segmentDelay[segmentDelay.Length - 1] = 0;
 
         if (loop) {
             points[points.Length - 1] = points[0];
             modes[modes.Length - 1] = modes[0];
+            segmentDelay[segmentDelay.Length - 1] = segmentDelay[0];
             EnforceMode(0);
         }
 
-		Array.Resize(ref segmentDelay, segmentDelay.Length + 1);
-		segmentDelay[segmentDelay.Length - 1] = 0;
     }
 
     public void RemoveSegment() {
@@ -217,6 +247,9 @@ public class Path : MonoBehaviour {
 
             Array.Resize(ref points, points.Length - 3);
             Array.Resize(ref modes, modes.Length - 1);
+            Array.Resize(ref types, types.Length - 1);
+            Array.Resize(ref segmentDelay, segmentDelay.Length - 1);
+
 
             if (loop) {
                 points[points.Length - 1] = points[0];

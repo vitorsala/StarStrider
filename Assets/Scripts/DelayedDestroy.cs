@@ -8,16 +8,20 @@ public class DelayedDestroy : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	}
+        hasBeenVisible = false;
+    }
 
-	// Update is called once per frame
-	void Update () {
-		if(!hasBeenVisible) {
-			if(GetComponent<SpriteRenderer>().isVisible) {
-				hasBeenVisible = true;
-			}
-		}
+    void OnBecameVisible() {
+        hasBeenVisible = true;
+    }
 
+    void OnBecameInvisible() {
+        if(hasBeenVisible) {
+            Destroy(gameObject);
+        }
+    }
+    // Update is called once per frame
+    void Update () {
 		/*
 		if(!GetComponent<SpriteRenderer>().isVisible) {
 			elapsedTime += Time.deltaTime;
@@ -31,13 +35,5 @@ public class DelayedDestroy : MonoBehaviour {
 			elapsedTime = 0;
 		}
 		*/
-
-		if(!GetComponent<SpriteRenderer>().isVisible) {
-			if(hasBeenVisible) {
-				Destroy(gameObject);
-			}
-		}
-
-
 	}
 }
