@@ -92,6 +92,15 @@ public class    PathInspector : Editor {
                 inspectedIndex -= 2;
             }
 
+            EditorGUI.BeginChangeCheck();
+            float delay = EditorGUILayout.FloatField("Delay in this segment", path.GetSegmentDelay(selectedIndex));
+            if(EditorGUI.EndChangeCheck()) {
+                Undo.RecordObject(path, "Change Segment Delay");
+                EditorUtility.SetDirty(path);
+                path.SetSegmentDelay(selectedIndex, delay);
+            }
+
+
             if (path.loop || inspectedIndex >= 0) {
                 int i = (inspectedIndex >= 0 ? inspectedIndex : path.ControlPointCount - 2);
                 EditorGUI.BeginChangeCheck();
@@ -137,10 +146,11 @@ public class    PathInspector : Editor {
 
     private Vector3 ShowPoint(int index){
 		Vector3 point = handleTransform.TransformPoint (path.GetControlPoint(index));
-		Handles.color = Color.white;
 		float size = HandleUtility.GetHandleSize (point);
         Handles.color = modeColors [(int)path.GetControlPointMode (index)];
-        
+
+        Handles.Label(point - new Vector3(0.05f, 0.05f), index.ToString());
+
         if(index % 3 == 0) {
             if (index == 0 || index == path.ControlPointCount - 1) {
                 size *= 3f;
@@ -161,7 +171,7 @@ public class    PathInspector : Editor {
             }
         }
 
-		if (selectedIndex == index) {
+        if (selectedIndex == index) {
 			EditorGUI.BeginChangeCheck ();
 			point = Handles.DoPositionHandle (point, handleRotation);
 
@@ -182,7 +192,7 @@ public class    PathInspector : Editor {
 
         for (int i = 0; i <= steps; i++) {
             float t = i / (float)steps;
-            Vector3 p = path.GetPoint(t);
+            Vector3 p = path.GetPoint(t).point;
             Handles.DrawLine(p, p + path.GetDirection(t));
         }
     }
