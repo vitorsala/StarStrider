@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\HeatSeek.cs" />
      <Compile Include="Assets\Scripts\Background\BackgroundLoopSystem.cs" />
      <Compile Include="Assets\Scripts\DelayedDestroy.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyComponent.cs" />
@@ -70,7 +71,18 @@
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerShootCollision.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerShootComponent.cs" />
+     <Compile Include="Assets\Scripts\Player\SpecialEffects\BombSpec.cs" />
+     <Compile Include="Assets\Scripts\Player\SpecialEffects\PlayerSpecialComponent.cs" />
+     <Compile Include="Assets\Scripts\Player\SpecialEffects\ShieldSpec.cs" />
+     <Compile Include="Assets\Scripts\Player\SpecialEffects\SwarmSpec.cs" />
+     <Compile Include="Assets\Scripts\PowerUp\Effects\PUEffect.cs" />
+     <Compile Include="Assets\Scripts\PowerUp\Effects\PUScoreEffect.cs" />
+     <Compile Include="Assets\Scripts\PowerUp\Effects\PUSpecialEffect.cs" />
+     <Compile Include="Assets\Scripts\PowerUp\Effects\PUWeaponEffect.cs" />
+     <Compile Include="Assets\Scripts\PowerUp\PUCollision.cs" />
+     <Compile Include="Assets\Scripts\PowerUp\PUComponent.cs" />
      <Compile Include="Assets\Scripts\TimedBomb.cs" />
+     <Compile Include="Assets\Scripts\TimedDestroy.cs" />
      <Compile Include="Assets\Scripts\UI\UILoadLevel.cs" />
      <Compile Include="Assets\Scripts\UI\UILoadScene.cs" />
      <Compile Include="Assets\Scripts\Unity Remote\DataReceiver.cs" />

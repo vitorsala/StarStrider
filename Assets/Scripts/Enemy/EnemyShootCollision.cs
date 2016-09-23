@@ -22,13 +22,17 @@ public class EnemyShootCollision : MonoBehaviour {
 		//atingir jogador
 		if(col.gameObject.tag == "Player") {
 			if(!col.gameObject.GetComponent<PlayerComponent>().isInvul) {
-				GameManager.sharedInstance.life--;
+				GameManager.sharedInstance.changeLives(GameManager.sharedInstance.life - 1);
 				col.gameObject.GetComponent<PlayerComponent>().damageInvul();
 			}
 			Destroy(gameObject);
 		}
 		//atingir cenario
 		if(col.gameObject.tag == "Obstacle") {
+			Destroy(gameObject);
+		}
+		//atingir escudos
+		if(col.gameObject.tag == "Shield") {
 			Destroy(gameObject);
 		}
 	}

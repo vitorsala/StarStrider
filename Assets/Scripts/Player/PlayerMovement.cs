@@ -27,5 +27,15 @@ public class PlayerMovement : MonoBehaviour {
 			movementVector.Normalize ();
 		}
 		transform.Translate (movementVector * moveSpeed * Time.deltaTime);
+
+		if(Input.GetKeyDown(KeyCode.Space)) {
+			//SPECIAL
+			if(GameManager.sharedInstance.specAmmo > 0) {
+				gameObject.GetComponent<PlayerSpecialComponent>().ActivateSpecial();
+				GameManager.sharedInstance.RemoveSpecAmmo(1);
+			}else {
+				//no ammo event 
+			}
+		}
 	}
 }

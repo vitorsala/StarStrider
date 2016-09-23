@@ -9,6 +9,7 @@ TagManager:
   - Boundary
   - EnemyController
   - Obstacle
+  - Shield
   layers:
   - Default
   - TransparentFX

@@ -174,5 +174,7 @@ MonoBehaviour:
   hitpoints: 2
   score: 100
   puObject: {fileID: 1000013691158634, guid: 51e4c443cb23c425f843cb3787d29e62, type: 2}
-  type: 1
-  puChance: 1
+  explosionParticles: {fileID: 1000013391846276, guid: 80f0607bc721346eea74f448f96ad894,
+    type: 2}
+  type: 3
+  puChance: 0.367

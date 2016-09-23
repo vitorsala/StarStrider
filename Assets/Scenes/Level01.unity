@@ -224,6 +224,7 @@ MonoBehaviour:
   gameState: 0
   startingPoint: {x: 0, y: -0.75, z: 0}
   player: {fileID: 1920113031}
+  specAmmo: 10
   score: 0
   life: 2000
   bonusLifeScore: 1000
@@ -285,8 +286,8 @@ MonoBehaviour:
     shootType: 1
   - active: 1
     enemySpeed: 0.4
-    timeBetweenEntities: 0.5
-    numberOfEnemies: 10
+    timeBetweenEntities: 0.15
+    numberOfEnemies: 30
     timeToStartSpawner: 19
     elapsedTimeSinceLastSpawn: 0
     numberOfShoot: 3
@@ -298,8 +299,8 @@ MonoBehaviour:
     shootType: 2
   - active: 1
     enemySpeed: 0.4
-    timeBetweenEntities: 0.5
-    numberOfEnemies: 10
+    timeBetweenEntities: 0.15
+    numberOfEnemies: 30
     timeToStartSpawner: 19
     elapsedTimeSinceLastSpawn: 0
     numberOfShoot: 3
@@ -589,6 +590,102 @@ Transform:
   m_Children: []
   m_Father: {fileID: 754695160}
   m_RootOrder: 0
+--- !u!1001 &516948704
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 198000011090205030, guid: 80f0607bc721346eea74f448f96ad894,
+        type: 2}
+      propertyPath: InitialModule.startSize.minCurve.m_Curve.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011290595334, guid: 80f0607bc721346eea74f448f96ad894, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011290595334, guid: 80f0607bc721346eea74f448f96ad894, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.096646786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011290595334, guid: 80f0607bc721346eea74f448f96ad894, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011290595334, guid: 80f0607bc721346eea74f448f96ad894, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011290595334, guid: 80f0607bc721346eea74f448f96ad894, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011290595334, guid: 80f0607bc721346eea74f448f96ad894, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011290595334, guid: 80f0607bc721346eea74f448f96ad894, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011290595334, guid: 80f0607bc721346eea74f448f96ad894, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013391846276, guid: 80f0607bc721346eea74f448f96ad894, type: 2}
+      propertyPath: m_Name
+      value: Test Particle System
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011090205030, guid: 80f0607bc721346eea74f448f96ad894,
+        type: 2}
+      propertyPath: ShapeModule.randomDirection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011090205030, guid: 80f0607bc721346eea74f448f96ad894,
+        type: 2}
+      propertyPath: ShapeModule.type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011090205030, guid: 80f0607bc721346eea74f448f96ad894,
+        type: 2}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011090205030, guid: 80f0607bc721346eea74f448f96ad894,
+        type: 2}
+      propertyPath: InitialModule.size3D
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011090205030, guid: 80f0607bc721346eea74f448f96ad894,
+        type: 2}
+      propertyPath: InitialModule.startSize.minCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011090205030, guid: 80f0607bc721346eea74f448f96ad894,
+        type: 2}
+      propertyPath: InitialModule.startSize.minMaxState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011090205030, guid: 80f0607bc721346eea74f448f96ad894,
+        type: 2}
+      propertyPath: InitialModule.startSize.minCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011090205030, guid: 80f0607bc721346eea74f448f96ad894,
+        type: 2}
+      propertyPath: SizeModule.separateAxes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198000011090205030, guid: 80f0607bc721346eea74f448f96ad894,
+        type: 2}
+      propertyPath: EmissionModule.rate.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 80f0607bc721346eea74f448f96ad894, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &552235947
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,11 +825,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11452332, guid: cdc0bd2f87a79dc4484bab375c07ed51, type: 2}
       propertyPath: type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11452332, guid: cdc0bd2f87a79dc4484bab375c07ed51, type: 2}
       propertyPath: rateOfFire
-      value: 0.2
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 11452332, guid: cdc0bd2f87a79dc4484bab375c07ed51, type: 2}
       propertyPath: projectileSpeed
@@ -742,6 +839,19 @@ Prefab:
       propertyPath: m_Radius
       value: 0.01
       objectReference: {fileID: 0}
+    - target: {fileID: 11452332, guid: cdc0bd2f87a79dc4484bab375c07ed51, type: 2}
+      propertyPath: shootObject
+      value: 
+      objectReference: {fileID: 184068, guid: 396d07dd65801824697e6c82b1f83f05, type: 2}
+    - target: {fileID: 11452332, guid: cdc0bd2f87a79dc4484bab375c07ed51, type: 2}
+      propertyPath: damage
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452332, guid: cdc0bd2f87a79dc4484bab375c07ed51, type: 2}
+      propertyPath: railObject
+      value: 
+      objectReference: {fileID: 1000011543067156, guid: af9e0a8efc9964d788595642603480c1,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cdc0bd2f87a79dc4484bab375c07ed51, type: 2}
   m_IsPrefabParent: 0
@@ -1636,6 +1746,7 @@ GameObject:
   - 114: {fileID: 1447329454}
   - 114: {fileID: 1447329458}
   - 50: {fileID: 1447329457}
+  - 60: {fileID: 1447329459}
   m_Layer: 0
   m_Name: TestObstacle
   m_TagString: Obstacle
@@ -1649,7 +1760,7 @@ EdgeCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1447329450}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -1668,7 +1779,7 @@ EdgeCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1447329450}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -1697,7 +1808,7 @@ EdgeCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1447329450}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -1814,7 +1925,7 @@ Rigidbody2D:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &1447329458
 MonoBehaviour:
@@ -1829,6 +1940,59 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTags:
   - Player
+--- !u!60 &1447329459
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1447329450}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: 1.6821442, y: -8.776014}
+      - {x: 1.5785854, y: -8.143058}
+      - {x: 1.6168907, y: -1.9417305}
+      - {x: -0.47525978, y: -1.9283333}
+      - {x: -0.48894644, y: -1.485363}
+      - {x: 1.5718737, y: -1.5119724}
+      - {x: 1.6266124, y: 2.3661785}
+      - {x: -1.1587234, y: 4.475868}
+      - {x: 1.0269346, y: 5.162588}
+      - {x: 1.7917888, y: 6.3786087}
+      - {x: 1.9977765, y: 7.138298}
+      - {x: 0.9209423, y: 7.9762745}
+      - {x: 0.9227419, y: 8.723047}
+      - {x: 3.2128117, y: 7.3510704}
+      - {x: 3.2539134, y: -8.234394}
+    - - {x: -1.2641196, y: -8.238344}
+      - {x: -1.2368741, y: -5.5726337}
+      - {x: 0.35035133, y: -4.4803314}
+      - {x: 0.34893847, y: -3.7600498}
+      - {x: -1.2564344, y: -3.7585373}
+      - {x: -1.2634301, y: 1.0270805}
+      - {x: 0.28770876, y: 1.0286751}
+      - {x: 0.28598976, y: 1.3915939}
+      - {x: -1.2664995, y: 1.4192429}
+      - {x: -1.2675123, y: 2.3459415}
+      - {x: -2.2136889, y: 3.8280106}
+      - {x: -2.190061, y: 5.415514}
+      - {x: -1.6747155, y: 6.3767204}
+      - {x: -1.731658, y: 7.139057}
+      - {x: -0.53593445, y: 7.881981}
+      - {x: -0.5762372, y: 8.732111}
+      - {x: -2.844119, y: 7.337538}
+      - {x: -2.8278627, y: -8.236385}
+      - {x: -1.3711748, y: -8.779327}
+    - - {x: 0.9278183, y: -8.383635}
+      - {x: 0.91901636, y: -6.8336496}
+      - {x: 0.14433527, y: -6.258458}
+      - {x: -0.5752902, y: -6.8220015}
+      - {x: -0.50527287, y: -8.373288}
 --- !u!1 &1543734592
 GameObject:
   m_ObjectHideFlags: 0
@@ -2025,6 +2189,19 @@ GameObject:
 Transform:
   m_PrefabParentObject: {fileID: 403892, guid: cdc0bd2f87a79dc4484bab375c07ed51, type: 2}
   m_PrefabInternal: {fileID: 593888788}
+--- !u!114 &1920113040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1920113031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b007da392e84d46a2a9cb4bcf75c7962, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swarmSize: 30
+  missileDamage: 1
 --- !u!1 &1966322479
 GameObject:
   m_ObjectHideFlags: 0

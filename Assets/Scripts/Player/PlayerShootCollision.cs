@@ -4,6 +4,10 @@ using System.Collections;
 public class PlayerShootCollision : MonoBehaviour {
 
 	[HideInInspector] public string[] targetTags = {"Enimigos","Obstacle"};
+	[HideInInspector] public int damage = 1;
+	public bool isFixed = false;
+
+
 	// Update is called once per frame
 	void Update () {
 	
@@ -23,17 +27,13 @@ public class PlayerShootCollision : MonoBehaviour {
 
 		//JEITO BURRO 
 		if(col.gameObject.tag == "Enimigos") {
-			Destroy(gameObject);
-			col.gameObject.GetComponent<EnemyComponent>().hitpoints--;
-			if(col.gameObject.GetComponent<EnemyComponent>().hitpoints <= 0) {
-				GameManager.sharedInstance.changeScore(GameManager.sharedInstance.score + col.gameObject.GetComponent<EnemyComponent>().score);
-				col.gameObject.GetComponent<EnemyComponent>().spawnPU();
-				Destroy(col.gameObject);
-			}
-
+			if(!isFixed)
+				Destroy(gameObject);
+			col.gameObject.GetComponent<EnemyComponent>().TakePlayerDamage(damage);
 		}
 		if(col.gameObject.tag == "Obstacle") {
-			Destroy(gameObject);
+			if(!isFixed)
+				Destroy(gameObject);
 		}
 	}
 }

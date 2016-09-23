@@ -1,10 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/PathInspector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
     <Files>
       <File FileName="Assets/Scripts/GameManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Path/Data/Path.cs" Line="1" Column="1" />
-      <File FileName="Assets/Editor/PathInspector.cs" Line="63" Column="2" NotebookId="1" />
+      <File FileName="Assets/Scripts/Player/PlayerShootComponent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/SpecialEffects/ShieldSpec.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/SpecialEffects/PlayerSpecialComponent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/SpecialEffects/BombSpec.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player/SpecialEffects/SwarmSpec.cs" Line="1" Column="1" />
+      <File FileName="Assets/HeatSeek.cs" Line="43" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

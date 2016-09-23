@@ -20,7 +20,10 @@ public class ObstacleCollision : MonoBehaviour
 		//JEITO BURRO
 
 		if(col.gameObject.tag == "Player") {
-			GameManager.sharedInstance.life--;
+			if(!col.gameObject.GetComponent<PlayerComponent>().isInvul) {
+				GameManager.sharedInstance.changeLives(GameManager.sharedInstance.life - 1);
+				col.gameObject.GetComponent<PlayerComponent>().damageInvul();
+			}
 		}
 		if(col.gameObject.tag == "Enimigos") {
 			Destroy(col.gameObject);

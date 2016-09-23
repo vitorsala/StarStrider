@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour {
 	[Tooltip("Referência para o jogador. Caso NULL, será o GameObject com a tag \"Player\".")]
 	public GameObject player;
 
+	public int specAmmo = 1;
 	public int score = 0;
 	public int life = 1;
 	public int bonusLifeScore = 1000;
@@ -55,33 +56,34 @@ public class GameManager : MonoBehaviour {
 		//Debug.Log("Elapsed Time: " + Time.timeSinceLevelLoad.ToString());
 
 		switch (gameState) {
-		case GameState.Starting:
+			case GameState.Starting:
 
-		    if (player.transform.localPosition != startingPoint) {
-			    float step = 0.8f * Time.deltaTime;
-			    player.transform.localPosition = Vector3.MoveTowards (player.transform.localPosition, startingPoint, step);
-		    }
-		    else {
-				player.GetComponent<PlayerComponent>().isInvul = false;
-                player.GetComponent<PlayerMovement>().enabled = true;
-                player.GetComponent<PlayerShootComponent>().enabled = true;
-			    gameState = GameState.Playing;
-		    }
-		    break;
-		case GameState.Playing:
-			if (life <= 0) {
-				gameState = GameState.Death;
-				player.SetActive (false);
+			    if (player.transform.localPosition != startingPoint) {
+				    float step = 0.8f * Time.deltaTime;
+				    player.transform.localPosition = Vector3.MoveTowards (player.transform.localPosition, startingPoint, step);
+			    }
+			    else {
+					player.GetComponent<PlayerComponent>().isInvul = false;
+	                player.GetComponent<PlayerMovement>().enabled = true;
+	                player.GetComponent<PlayerShootComponent>().enabled = true;
+				    gameState = GameState.Playing;
+			    }
+			    break;
+			case GameState.Playing:
+				if (life <= 0) {
+					gameState = GameState.Death;
+					player.SetActive (false);
+
+				}
+				break;
+			case GameState.Death:
+				gameState = GameState.GameOver;
+				break;
+			case GameState.GameOver:
+				mainCanvas.SetActive (false);
+				gameOverCanvas.SetActive (true);
+				break;
 			}
-			break;
-		case GameState.Death:
-			gameState = GameState.GameOver;
-			break;
-		case GameState.GameOver:
-			mainCanvas.SetActive (false);
-			gameOverCanvas.SetActive (true);
-			break;
-		}
 	}
 
 	public void changeScore(int newScore){
@@ -93,10 +95,29 @@ public class GameManager : MonoBehaviour {
 		//handling de ganhar vidas
 		if(scoreSinceLife >= bonusLifeScore) {
 			scoreSinceLife -= bonusLifeScore;
-			life++;
+			GameManager.sharedInstance.changeLives(GameManager.sharedInstance.life+1);
+
 
 			//TODO: efeitos de ganhar vida extra
 		}
+	}
+
+	public void ChangeScoreBy(int changeAmount){
+		changeScore(score + changeAmount);
+	}
+
+	public void changeLives(int newLives){
+		life = newLives;
+		livesDisplay.text = "Lives: " + life;
+	}
+
+	public void AddSpecAmmo(int amount){
+		specAmmo += amount;
+		//TODO: visual and sound effects for gaining spec charge
+	}
+
+	public void RemoveSpecAmmo(int amount){
+		specAmmo -= amount;
 	}
 
 }
